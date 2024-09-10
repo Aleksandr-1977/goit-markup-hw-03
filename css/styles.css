@@ -1,12 +1,16 @@
 /*------------Body------------------------------------------------*/
+h1, h2, h3, h4, p {margin: 0px;}
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
+  box-sizing: border-box;
 }
 ul,
 ol {
   list-style-type: none;
+  padding-left: 0px;
+  margin: 0px;
 }
 a {
   text-decoration: none;
@@ -15,7 +19,18 @@ a {
 button {
   cursor: pointer;
 }
+img {
+  display: block;}
+
 /*----------/Body------------------------------------------------*/
+.container { 
+  max-width: 1128px;
+  padding-left: 15px;  
+  padding-right: 15px;
+  margin-left: 141px;
+  margin-right: 141px; 
+  background-color: yellow;
+  }
 /*-----------Logo------------------------------------------------*/
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -25,12 +40,22 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
+ }
+  
+
 .text-logo {
   color: #2e2f42;
 }
 /*----------/Logo------------------------------------------------*/
 /*----------Header---------------------------------------------- */
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    position: relative;}
+.nav-list{
+  }  
+  
 .menu {
  
   font-weight: 500;
