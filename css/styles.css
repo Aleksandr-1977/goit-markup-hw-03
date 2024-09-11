@@ -49,11 +49,9 @@ img {
 /*----------/Logo------------------------------------------------*/
 /*----------Header---------------------------------------------- */
 .header-container{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-    position: relative;}
-.nav-list{display: block;
+  display: block;
+  
+.nav-list{
   }  
   
 .menu {
