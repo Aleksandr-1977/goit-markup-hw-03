@@ -52,12 +52,12 @@ img {
   width: 1098px;
   margin: 0 auto;
   }
-.nav-list{
+.nav-list{ margin-right: auto;
+  margin-left: auto;
   }  
   
 .menu {
- margin-right: auto;
-  margin-left: auto;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
