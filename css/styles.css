@@ -52,7 +52,9 @@ img {
   width: 1098px;
   margin: 0 auto;
   }
-.nav-list{ margin-right: auto;
+.nav-list{
+  display: inline;
+  margin-right: auto;
   margin-left: auto;
   }  
   
