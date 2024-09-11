@@ -51,11 +51,12 @@ img {
 .header-container{
   display: block;
   }
-.nav-list{display: inline;
+.nav-list{
   }  
   
 .menu {
  margin-right: auto;
+  margin-left: auto:
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
