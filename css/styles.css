@@ -41,18 +41,11 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
  }
-  
-
-.text-logo {
-  color: #2e2f42;
-}
+  .text-logo {color: #2e2f42;}
 /*----------/Logo------------------------------------------------*/
 /*----------Header---------------------------------------------- */
-.header-container{
-  }
-.menu-nav-list{
-  
-  }  
+.header-container{}
+
   
 .menu {
 
