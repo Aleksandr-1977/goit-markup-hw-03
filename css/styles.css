@@ -53,6 +53,7 @@ img {
   margin: 0 auto;
   }
 .menu-nav-list{
+  display: block;
   margin-right: auto;
   margin-left: auto;
   }  
