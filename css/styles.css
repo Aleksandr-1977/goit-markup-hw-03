@@ -1,5 +1,6 @@
 /*------------Body------------------------------------------------*/
-h1, h2, h3, h4, p {margin: 0px;}
+h1, h2, h3, h4, p {margin-top: 0px;
+margin-bottom: 0px;}
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -10,7 +11,8 @@ ul,
 ol {
   list-style-type: none;
   padding-left: 0px;
-  margin: 0px;
+  margin-top: 0px;
+margin-bottom: 0px;
 }
 a {
   text-decoration: none;
@@ -24,11 +26,11 @@ img {
 
 /*----------/Body------------------------------------------------*/
 .container { 
-  max-width: 1128px;
+  max-width: 1158px;
   padding-left: 15px;  
   padding-right: 15px;
-  margin-left: 141px;
-  margin-right: 141px; 
+  margin-left: auto;
+  margin-right: auto; 
   background-color: yellow;
   }
 /*-----------Logo------------------------------------------------*/
@@ -44,11 +46,20 @@ img {
   .text-logo {color: #2e2f42;}
 /*----------/Logo------------------------------------------------*/
 /*----------Header---------------------------------------------- */
-.header-container{}
-
+.nav-page{display: flex;
+  align-items: center;}
+.contacts-list{display: flex;
   
+}
+  .nav-list{display: flex;
+    column-gap: 40px;}
+  .header-container{display: flex;
+     height: 72px;
+      }
 .menu {
-
+display: block;
+padding-top: 24px;
+padding-bottom: 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
