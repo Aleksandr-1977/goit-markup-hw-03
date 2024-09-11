@@ -53,7 +53,7 @@ img {
   justify-content: space-between;
   align-items: center;
     position: relative;}
-.nav-list{
+.nav-list{display: block;
   }  
   
 .menu {
