@@ -23,6 +23,19 @@ button {
 }
 img {
   display: block;}
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 /*----------/Body------------------------------------------------*/
 .container { 
@@ -43,16 +56,21 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
  }
-  .text-logo {color: #2e2f42;}
+  .text-logo {color: #2e2f42;
+  padding-right: 76px;}
 /*----------/Logo------------------------------------------------*/
 /*----------Header---------------------------------------------- */
+.header-container{display: flex;
+  align-items: center;}
 .nav-page{display: flex;
   align-items: center;}
+.nav-list{display: flex;
+    column-gap: 40px;
+  padding-right: 332px;}
 .contacts-list{display: flex;
-  
+  align-items: center;
+ column-gap: 40px;
 }
-  .nav-list{display: flex;
-    column-gap: 40px;}
   .header-container{display: flex;
      height: 72px;
       }
@@ -82,16 +100,20 @@ padding-bottom: 24px;
 /*-----------/Header--------------------------------------------*/
 /*-----------Main-----------------------------------------------*/
 /*-----------Section1-------------------------------------------*/
+.container-first{width: 496px;
+}
+.container-btn-order-service{display: flex;
+  align-items: center;}
 .page-section-first {
   background: #2e2f42;
 }
 .main-text {
-  
+  font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;
+  line-height: 1.07143;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 .button-order-service {
    font-weight: 500;
