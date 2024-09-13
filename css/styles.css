@@ -95,7 +95,7 @@ margin-left: auto;}
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  background: #2e2f42;}
+    background: #2e2f42;}
 .container-first{display: flex;
 flex-direction: column;
 align-items: center;}
@@ -126,14 +126,19 @@ align-items: center;}
   background: #404bbf;}
 /*-----------/Section1------------------------------------------*/
 /*------------Section2------------------------------------------*/
+.container-second{
+  padding: 120px 0;}
+.main-text-page-section-second{display: flex;
+justify-content: center;
+gap: 24px;}
 .title-page-section-second{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
   color: #2e2f42;}
 .text-section-second{
-  
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
