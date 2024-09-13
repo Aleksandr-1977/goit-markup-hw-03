@@ -161,14 +161,20 @@ gap: 24px;}
   color: #2e2f42;}
 .container-foto{display: flex;
 gap: 24px;}
-.foto{width: calc((100% - 72px) / 4);}
+.foto{width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;}
+.container-text{padding: 32px 0;}
 .title-page-section-third{
+  text-align: center;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;} 
 .text-section-third{
+  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;}
