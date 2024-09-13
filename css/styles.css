@@ -22,8 +22,9 @@ button {
   cursor: pointer;
 }
 img {
-  display: block;}
-  .visually-hidden {
+  display: block;
+  max-width: 100%; height: auto;}
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -40,10 +41,8 @@ img {
 /*----------/Body------------------------------------------------*/
 .container { 
   max-width: 1158px;
-  padding-left: 15px;  
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto; 
+  padding: 0 15px;  
+  margin: 0 auto; 
   background-color: yellow;
   }
 /*-----------Logo------------------------------------------------*/
@@ -68,13 +67,8 @@ img {
     column-gap: 40px;
   padding-right: 332px;}
 .contacts-list{display: flex;
-  align-items: center;
- column-gap: 40px;
-}
-  .header-container{display: flex;
-     height: 72px;
-      }
-.menu {
+  column-gap: 40px;}
+ .menu {
 display: block;
 padding-top: 24px;
 padding-bottom: 24px;
@@ -82,8 +76,7 @@ padding-bottom: 24px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-}
+  color: #2e2f42;}
 .menu-nav-list:hover, .menu-nav-list:focus {
   color: #404bbf;
 }
@@ -100,12 +93,12 @@ padding-bottom: 24px;
 /*-----------/Header--------------------------------------------*/
 /*-----------Main-----------------------------------------------*/
 /*-----------Section1-------------------------------------------*/
-.container-first{width: 496px;
-}
+
 .container-btn-order-service{display: flex;
   align-items: center;}
 .page-section-first {
-  background: #2e2f42;
+  max-height: 600px;
+    background: #2e2f42;
 }
 .main-text {
   font-weight: 700;
