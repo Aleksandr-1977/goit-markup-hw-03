@@ -131,6 +131,7 @@ align-items: center;}
 .main-text-page-section-second{display: flex;
 justify-content: center;
 gap: 24px;}
+.text-page-section-second{width: calc((100% - 72px) / 4);}
 .title-page-section-second{
   font-weight: 500;
   font-size: 20px;
