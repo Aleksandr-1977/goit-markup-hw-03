@@ -181,8 +181,8 @@ gap: 24px;}
 .page-section-fourth{padding: 120px 0;}
 .container-fourth{display: flex;
   flex-wrap: wrap;
-row-gap: 24px;
-column-gap: 24px;}
+  row-gap: 48px;
+  column-gap: 24px;}
 .text-our-portfolio{
   margin-bottom: 72px;
   font-size: 36px;
@@ -192,41 +192,42 @@ column-gap: 24px;}
   text-transform: capitalize;
   color: #2e2f42;}
   .text-title-section-fourth{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;}
-    .text-fourth{border-bottom: 1px solid #e7e9fc;
-      border-left: 1px solid #e7e9fc;
-      border-right: 1px solid #e7e9fc;
-      padding: 32px 16px;
-      margin-bottom: 8px}
-    .text-section-fourth{
-      font-size: 16px;
-      line-height: 1.5;
-      letter-spacing: 0.02em;
-     }
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;}
+  .text-fourth{border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
+  margin-bottom: 8px;}
+  .text-section-fourth{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;}
 /*-----------/Section4-------------------------------------------*/
 /*----------/Main------------------------------------------------*/
 /*-----------Footer----------------------------------------------*/
-.page-footer{background: #2e2f42;}
-.logo-footer {
-  font-family: "Raleway", sans-serif;
-
+.page-footer{
+padding: 100px 0;
+background: #2e2f42;}
+.container-footer{}
+.logo-footer {display: inline-block;
+margin-bottom: 16px;
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4d5ae5;
-}
+color: #4d5ae5;}
 .text-logo-footer {
-  color: #f4f4fd;}
+color: #f4f4fd;}
 .text-footer{
-  
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;}
+max-width: 264px;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;}
 /*-----------Foooter---------------------------------------------*/
