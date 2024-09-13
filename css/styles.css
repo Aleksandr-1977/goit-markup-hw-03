@@ -197,12 +197,12 @@ gap: 24px;}
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 8px;
   color: #2e2f42;}
   .text-fourth{border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
-  padding: 32px 16px;
-  margin-bottom: 8px;}
+  padding: 32px 16px;}
   .text-section-fourth{
   font-size: 16px;
   line-height: 1.5;
