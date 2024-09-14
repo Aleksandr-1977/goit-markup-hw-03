@@ -160,8 +160,7 @@ gap: 24px;}
 .container-foto{display: flex;
 gap: 24px;}
 .foto{width: calc((100% - 72px) / 4);
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;}
+  border-radius: 0 0 4px 4px;}
 .container-text{padding: 32px 0;}
 .title-page-section-third{
   text-align: center;
